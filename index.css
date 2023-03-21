@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    background-color: #d6e2f0 ;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+#qrCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    height: 25rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.imageQr > img{
+    border-radius: .5rem;
+    height:14rem;
+    width: 14rem;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.text1{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font: 700;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Outfit', sans-serif;
+}
+.text2{
+    text-align: center;
+    font: 300;
+    font-size:12px;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
